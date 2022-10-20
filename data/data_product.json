@@ -3,8 +3,8 @@
     "features": [
       "pilsen chicas",
       "pilsen chica",
-      "pilsen pequeñas" ,
-      "pilsen pequeña" ,
+      "pilsen pequeñas",
+      "pilsen pequeña",
       "pilsen de seiscientos",
       "pizza chica",
       "pizzas en chicas"
@@ -24,7 +24,94 @@
     "responses": "Pilsen Lt. x12 vidrio"
   },
   {
-    "features": ["inca kola mediana", "inka cola mediana", "inka", "mediana", "inca kola pequeña", "inca mediana"],
+    "features": [
+      "inca kola mediana",
+      "inka cola mediana",
+      "inka",
+      "mediana",
+      "inca kola pequeña",
+      "inca mediana"
+    ],
     "responses": "Inca Kola 296ml. x24 vidrio"
+  },
+  {
+    "features": [
+      "coca coca mediana",
+      "coca cola mediana",
+      "coca",
+      "mediana",
+      "coca kola pequeña",
+      "coca mediana"
+    ],
+    "responses": "Coca Coca 296ml. x24 vidrio"
+  },
+  {
+    "features": [
+      "inca kola gordita",
+      "inka cola gordita",
+      "inka",
+      "gordita",
+      "inca kola gorda",
+      "inca gordita"
+    ],
+    "responses": "Inca Kola 625ml. x12 vidrio"
+  },
+  {
+    "features": [
+      "coca cola jumbo",
+      "coka cola jumbo",
+      "coca",
+      "jumbo",
+      "coca cola pequeña",
+      "coca jumbo"
+    ],
+    "responses": "Coca Cola 625ml. x12 vidrio"
+  },
+  {
+    "features": [
+      "inca kola litro",
+      "inka cola litro",
+      "inca",
+      "litro",
+      "inca cola litro",
+      "inca litro"
+    ],
+    "responses": "Inca Kola 1lt. x12 vidrio"
+  },
+  {
+    "features": [
+      "coca kola litro",
+      "coca cola litro",
+      "coca",
+      "litro",
+      "coca cola litro",
+      "coca litro"
+    ],
+    "responses": "Coca Cola 1lt. x12 vidrio"
+  },
+  {
+    "features": [
+      "inca kola litro y medio",
+      "inka cola litro y medio",
+      "inca",
+      "litro",
+      "y medio",
+      "inca cola litro y medio",
+      "inca litro y medio"
+    ],
+    "responses": "Inca Kola 1.5lt. x12 vidrio"
+  },
+  {
+    "features": [
+      "coca cola litro y medio",
+      "coca kola litro y medio",
+      "coca",
+      "litro",
+      "y medio",
+      "coca cola litro y medio",
+      "coca litro y medio"
+    ],
+    "responses": "Coca Cola 1.5lt. x12 vidrio"
   }
+
 ]

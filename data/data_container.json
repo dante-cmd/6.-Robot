@@ -1,8 +1,14 @@
 [
-    {"features":["paquetes", "paquete", "packete", "paq"],
-    "responses":"paq."},
-    {"features":["caja", "cajas", "caj", "cajo", "cajos"],
-    "responses":"caj."},
-    {"features":["bidones", "bidón", "bidónes", "bid", "bidones", "ónes"],
-    "responses":"unid."}
+  {
+    "features": ["paquetes", "paquete", "packete", "paq"],
+    "responses": "paq."
+  },
+  {
+    "features": ["caja", "cajas", "caj", "cajo", "cajos"],
+    "responses": "caj."
+  },
+  {
+    "features": ["bidones", "bidón", "bidónes", "bid", "bidones", "ónes"],
+    "responses": "unid."
+  }
 ]

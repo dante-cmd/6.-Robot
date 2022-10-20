@@ -3,6 +3,7 @@ from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from model import predict_class
+from utils import *
 
 app = FastAPI()
 
@@ -18,7 +19,7 @@ def index(request: Request):
     return template.TemplateResponse('index.html', context=context)
 
 
-from utils import *
+
 
 
 @app.post("/")

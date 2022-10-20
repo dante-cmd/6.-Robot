@@ -99,7 +99,7 @@ def predict_naive_bayes(text:str, model:Naivebayes,regex:re.Pattern|None=None):
     if regex:
         search = re.search(regex, text)
         
-        assert search, "no group matched"
+        assert search, "no group matched in %regex"%regex
         text_input = search.group(1)
         
         if text_input.isdigit():

@@ -1,10 +1,22 @@
 from utils import *
 from data import data
 
-prices = {'Pilsen Lt. x12 vidrio': "78.5", 'Pilsen 630ml. x12 vidrio': "59.0", 'Inca Kola 296ml. x24 vidrio':"27.0"}
+# import motor.motor_asyncio
+from pymongo import MongoClient
+
+client =MongoClient('mongodb://localhost:27017')
+
+db = client.robot
+collection = db.products
+
+def fetch_one_product(name_product):
+    document = collection.find_one({"name_product":name_product})
+    return document
+
 
 def predict_class(text):
     results = {}
+    
     for item in data:
         
         name_file = item.get('name_file')
@@ -27,10 +39,15 @@ def predict_class(text):
         else:
             results[name] = str(predict.get('value'))
             # print(predict.get('value'))
-    results['price'] = prices[results['name_product']]
+    
+
+    name_product = results['name_product']
+    # connect with MongoDB
+    product_doc = fetch_one_product(name_product)
+    results['price'] = product_doc.get("price")
     results['amount'] = float(results['price'])*float(results['quantity'])
     results['amount'] = str(results['amount'])
     return results
 
 if __name__ == "__main__":
-    print(predict_class("10 caja de pilsen chica"))
+    print(predict_class("una caja de pilsen chica"))
