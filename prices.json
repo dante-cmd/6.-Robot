@@ -1,12 +1,52 @@
 [
-    {"name_product":"Pilsen Lt. x12 vidrio", "price":"78.5"},
-    {"name_product":"Pilsen 630ml. x12 vidrio", "price":"59.0"},
-    {"name_product":"Inca Kola 296ml. x24 vidrio", "price":"27.0"},
-    {"name_product":"Coca Coca 296ml. x24 vidrio", "price":"27.0"},
-    {"name_product":"Inca Kola 625ml. x12 vidrio", "price":"30.0"},
-    {"name_product":"Coca Cola 625ml. x12 vidrio", "price":"30.0"},
-    {"name_product":"Inca Kola 1lt. x12 vidrio", "price":"33.0"},
-    {"name_product":"Coca Cola 1lt. x12 vidrio", "price":"33.0"},
-    {"name_product":"Inca Kola 1.5lt. x12 vidrio", "price":"37.0"},
-    {"name_product":"Coca Cola 1.5lt. x12 vidrio", "price":"37.0"}
+  {
+    "name_product": "Pilsen Lt. x12 vidrio",
+    "price": "78.5",
+    "container": "caj."
+  },
+  {
+    "name_product": "Pilsen 630ml. x12 vidrio",
+    "price": "59.0",
+    "container": "caj."
+  },
+  {
+    "name_product": "Inca Kola 296ml. x24 vidrio",
+    "price": "27.0",
+    "container": "caj."
+  },
+  {
+    "name_product": "Coca Coca 296ml. x24 vidrio",
+    "price": "27.0",
+    "container": "caj."
+  },
+  {
+    "name_product": "Inca Kola 625ml. x12 vidrio",
+    "price": "30.0",
+    "container": "caj."
+  },
+  {
+    "name_product": "Coca Cola 625ml. x12 vidrio",
+    "price": "30.0",
+    "container": "caj."
+  },
+  {
+    "name_product": "Inca Kola 1lt. x12 vidrio",
+    "price": "33.0",
+    "container": "caj."
+  },
+  {
+    "name_product": "Coca Cola 1lt. x12 vidrio",
+    "price": "33.0",
+    "container": "caj."
+  },
+  {
+    "name_product": "Inca Kola 1.5lt. x12 vidrio",
+    "price": "37.0",
+    "container": "caj."
+  },
+  {
+    "name_product": "Coca Cola 1.5lt. x12 vidrio",
+    "price": "37.0",
+    "container": "caj."
+  }
 ]

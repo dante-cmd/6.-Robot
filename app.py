@@ -19,9 +19,6 @@ def index(request: Request):
     return template.TemplateResponse('index.html', context=context)
 
 
-
-
-
 @app.post("/")
 async def post_init(request: Request):
 
@@ -30,7 +27,9 @@ async def post_init(request: Request):
     
     # Training Data
     frame, cat = get_frame('data_init.json')
+    
     nb = fit_model(frame)
+    
     predict = predict_naive_bayes(
         text=result,
         model=nb

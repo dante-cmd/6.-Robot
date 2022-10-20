@@ -83,7 +83,7 @@ def talk(text:str)->None:
 
 # 5. Predictions
  
-def predict_naive_bayes(text:str, model:Naivebayes,regex:re.Pattern|None=None):
+def predict_naive_bayes(text:str, model:Naivebayes):
 
     """
     Prediction using Naive Bayes
@@ -92,19 +92,20 @@ def predict_naive_bayes(text:str, model:Naivebayes,regex:re.Pattern|None=None):
       It is the sentence that we want to predict. e.g. `10 cajas de inca kola mediana`
     model: Naivebayes 
       It is the model already trained
-    regex: re.Pattern|None=None 
-      It is the pattern. e.g. re.compile(r"(caj\w*|pa[qk]\w*)(?=\sde)")
     """
     
-    if regex:
-        search = re.search(regex, text)
+    if not text:
+        # looking for it in db 
+        return None
+    
+        # search = re.search(regex, text)
+            
+        # assert search, "no group matched in %regex"%regex
+        # text_input = search.group(1)
         
-        assert search, "no group matched in %regex"%regex
-        text_input = search.group(1)
-        
-        if text_input.isdigit():
-            # return a value tyep string
-            return {"value":text_input}
+    elif text.isdigit():
+        # return a value tyep string
+        return {"value":text}
     else :
         text_input = text 
     
@@ -129,3 +130,12 @@ if __name__ == "__main__":
     else:
         pass
         # print(predict.get('value'))
+
+def pattern_search(text):
+    pattern = re.search(
+        r'(?P<quantity>\d+|\w+)[ ]*(?P<container>[ck]a[a-z]+|pa[a-zá]+|[bv][a-zó]+)?[ ]*(?:de)?[ ]*(?P<name_product>.*)',text)
+    
+    # quantity = pattern.group('quantity')
+    # container = pattern.group('container')
+    # name_product = pattern.group('name_product')
+    return pattern
