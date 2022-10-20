@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+#output {
+    transition: all 0.2s ease-in-out;
+    /* background: blue; */
+}

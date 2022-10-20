@@ -1,0 +1,27 @@
+[
+  {
+    "features": ["uno", "un", "una", "unas", "unos"],
+    "responses": 1
+  },
+  {
+    "features": ["dos", "doss", "doc"],
+    "responses": 2
+  },
+  {
+    "features": ["tres", "tres"],
+    "responses": 3
+  },
+  {
+    "features": ["cuatro", "cuato", "kuatro"],
+    "responses": 4
+  },
+  {
+    "features": ["cinco", "cincos", "sinco"],
+    "responses": 5
+  },
+  { "features": ["seis", "sies", "six"], "responses": 6 },
+  { "features": ["siete", "ciete"], "responses": 7 },
+  { "features": ["ocho", "ocko"], "responses": 8 },
+  { "features": ["nueve", "nueves", "nuevo"], "responses": 9 },
+  { "features": ["diez", "dies", "diex"], "responses": 10 }
+]

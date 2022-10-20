@@ -1,0 +1,41 @@
+[
+    {
+      "tag": "greeting",
+      "features": ["hola", "buenos dias", "buenas Noches"],
+      "responses": "en que te puedo ayudar"
+    },
+    {
+      "tag": "add_order",
+      "features": [
+        "hacer un pedido",
+        "generar un pedido",
+        "tomar un pedido",
+        "quiero tomar un pedido",
+        "quiero generar un pedido"
+      ],
+      "responses":"escucho el pedido"
+    },
+    
+    {
+        "tag": "show_orders",
+        "features": [
+          "mostrar las pedidos",
+          "cuales con mis pedidos",
+          "cual es la lista de pedidos"
+
+        ],
+        "responses":"aqui estan sus pedidos"
+
+      },
+      {
+        "tag": "exit",
+        "features": [
+          "listo, gracias",
+          "nos vemos",
+          "chau"
+          
+        ],
+        "responses": "nos vemos"
+
+      }
+  ]

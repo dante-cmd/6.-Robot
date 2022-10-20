@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{url_path_css}}" />
+    <title>Document</title>
+  </head>
+  <body class="h-[100vh] w-full">
+    <main class="container h-full w-full flex justify-center items-center">
+      <section
+        class="border border-black-100 rounded-sm w-[500px] text-xs h-[500px] p-3 flex flex-col justify-between"
+      >
+        <div class="">
+          <h1 class="uppercase text-xl font-semibold my-5">invoice</h1>
+          <div class="name mb-4 text-[18px] relative">
+            Marcos Tibia
+            <p class="absolute top-0 right-0 text-black" id="cat-test"></p>
+          </div>
+          <div class="flex flex-row items-center justify-between">
+            <div class="left-item flex-1">
+              <p class="ruc mb-2" id="ruc">
+                <span>RUC:</span>
+                <span class="ml-2 font-semibold">12346582693</span>
+              </p>
+              <p class="date mb-2">
+                <span>Date:</span>
+                <span class="ml-2 font-semibold">10/02/2022</span>
+              </p>
+            </div>
+            <div class="right-item basis-40">
+              <p class="direction mb-2">
+                Direction:
+                <span class="font-semibold ml-2">Av. Tacna 789</span>
+              </p>
+              <p class="nro mb-2">
+                Nro:
+                <span class="font-semibold ml-2">Fact 000239646454</span>
+              </p>
+            </div>
+          </div>
+          <div class="bg-black h-[30px] flex justify-center items-center my-4">
+            <button
+              id="add-item"
+              class="bg-teal-200 rounded px-2 w-[60px] h-[20px]"
+            >
+              Add
+            </button>
+          </div>
+          <div class="output w-full">
+            <table class="w-full text-right table-auto" id="tb-id">
+              <thead class="border-b border-black-100">
+                <tr class="">
+                  <th class="font-bold capitalize text-center">quantity</th>
+                  <th class="font-bold text-center">Container</th>
+                  <th class="font-bold text-center w-[200px]">Product</th>
+                  <th class="font-bold text-center">Price</th>
+                  <th class="font-bold text-center">Amount</th>
+                </tr>
+              </thead>
+              <tbody id="output">
+                  
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="total w-full mt-4">
+          <span>Total</span>
+          <span id="total-id"></span>
+        </div>
+      </section>
+    </main>
+    <script src="{{url_for('static', path ='script.js')}}"></script>
+  </body>
+</html>

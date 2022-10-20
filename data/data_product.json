@@ -1,0 +1,30 @@
+[
+  {
+    "features": [
+      "pilsen chicas",
+      "pilsen chica",
+      "pilsen pequeñas" ,
+      "pilsen pequeña" ,
+      "pilsen de seiscientos",
+      "pizza chica",
+      "pizzas en chicas"
+    ],
+    "responses": "Pilsen 630ml. x12 vidrio"
+  },
+
+  {
+    "features": [
+      "pilsen grande",
+      "pilsen de litro",
+      "pilsen grandes",
+      "pilsen litro",
+      "pizza en grande",
+      "pizzas en grande"
+    ],
+    "responses": "Pilsen Lt. x12 vidrio"
+  },
+  {
+    "features": ["inca kola mediana", "inka cola mediana", "inka", "mediana", "inca kola pequeña", "inca mediana"],
+    "responses": "Inca Kola 296ml. x24 vidrio"
+  }
+]
