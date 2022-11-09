@@ -92,7 +92,7 @@ recognition.interimResults = false;
 recognition.maxAlternatives = 1;
 
 addItem.addEventListener("click", () => {
-  ruc.style.backgroundColor = "red";
+  // ruc.style.backgroundColor = "red";
   recognition.start();
   console.log("Ready to receive a color command.");
 });

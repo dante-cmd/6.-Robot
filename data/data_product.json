@@ -112,6 +112,33 @@
       "coca litro y medio"
     ],
     "responses": "Coca Cola 1.5lt. x12 vidrio"
+  },
+  {
+    "features": [
+      "coca cola 3 litros",
+      "coca kola 3 litros",
+      "coca",
+      "3 litros",
+      " 3 litro",
+      "a 3 lit",
+      "coca cola 3 litros",
+      "coca 3 litros"
+    ],
+    "responses": "Coca Cola 3lt. x4"
+  },
+  {
+    "features": [
+      "inca cola 3 litros",
+      "inca kola 3 litros",
+      "inca",
+      "3 litros",
+      " 3 litro",
+      "a 3 lit",
+      "inca cola 3 litros",
+      "inca 3 litros"
+    ],
+    "responses": "Inca Kola 3lt. x4"
   }
+  
 
 ]

@@ -1,5 +1,3 @@
-import re
-
 data = [{
     "name": "quantity",
     "name_file": "data_number.json"

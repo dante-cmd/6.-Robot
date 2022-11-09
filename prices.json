@@ -48,5 +48,16 @@
     "name_product": "Coca Cola 1.5lt. x12 vidrio",
     "price": "37.0",
     "container": "caj."
+  },
+  {
+    "name_product": "Coca Cola 3lt. x4",
+    "price": "35.0",
+    "container": "paq."
+  },
+  {
+    "name_product": "Inca Kola 3lt. x4",
+    "price": "35.0",
+    "container": "paq."
   }
+
 ]

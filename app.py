@@ -51,8 +51,10 @@ async def post_init(request: Request):
 @app.post("/products")
 async def post_products(request: Request):
     response = await request.json()
-    
+
     result = response['result']
     out = predict_class(result)
+
+    # out = {'quantity': '1', 'container': 'caj.', 'name_product': 'Pilsen Lt. x12 vidrio', 'price': '78.5', 'amount': '78.5'}
     
     return out 

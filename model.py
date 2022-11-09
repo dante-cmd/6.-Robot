@@ -21,6 +21,7 @@ def predict_class(text):
         name_file = item.get('name_file')
         name = item.get('name')
         text_input = pattern.group(name)
+        # print(text_input)
         # pattern = item.get('pattern')
         
         
